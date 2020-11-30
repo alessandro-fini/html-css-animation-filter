@@ -112,6 +112,20 @@
 .ex-10-icon {
     font-size: 60px;
 }
+/* esercizio 10 */
+@keyframes loading {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ex-10-icon{
+  animation: loading 1s linear infinite reverse;
+}
+/* /esercizio 10 */
 .ex-11-icon {
     font-size: 60px;
 }
