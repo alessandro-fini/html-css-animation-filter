@@ -129,6 +129,26 @@
 .ex-11-icon {
     font-size: 60px;
 }
+/* esercizio 11 */
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  90% {
+    transform: rotate(320deg);
+  }
+  95%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
+
+.ex-11-icon:hover{
+  animation: rotation 1.5s linear;
+}
+/* /esercizio 11 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
